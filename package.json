@@ -1,16 +1,17 @@
 {
   "name": "@ijusplab/ijusplabcss",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Pequena biblioteca CSS do iJuspLab para rápida prototipação.",
   "main": "src/index.js",
-  "browser": "dist/ijusplab.css", 
+  "browser": "dist/ijusplab.css",
   "style": "dist/ijusplab.css",
   "files": [
     "/dist/*.css"
   ],
   "scripts": {
     "test": "eslint",
-    "build": "webpack -p --mode-production"
+    "build": "webpack -p --mode-production",
+    "prod": "npm run build && npm publish --access=public"
   },
   "repository": {
     "type": "git",
@@ -36,6 +37,7 @@
     "cssnano": "^4.1.10",
     "mini-css-extract-plugin": "^0.9.0",
     "node-sass": "^4.13.1",
+    "normalize.css": "^8.0.1",
     "optimize-css-assets-webpack-plugin": "^5.0.3",
     "postcss-import": "^12.0.1",
     "postcss-loader": "^3.0.0",
@@ -43,7 +45,5 @@
     "webpack": "^4.41.5",
     "webpack-cli": "^3.3.10"
   },
-  "dependencies": {
-    "normalize.css": "^8.0.1"
-  }
+  "dependencies": {}
 }

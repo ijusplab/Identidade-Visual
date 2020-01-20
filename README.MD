@@ -14,22 +14,20 @@ Folha de estilos CSS para rápida prototipação utilizada pelo Laboratório de 
 Abra o terminal na pasta raiz do projeto e digite:
 
 ```node
-yarn add @ijusplab/ijusplabcss
+yarn add -D @ijusplab/ijusplabcss
 
 // ou
 
-npm -i @ijusplab/ijusplabcss
+npm -i @ijusplab/ijusplabcss --save-dev
 ```
 
 Uma vez feito isso, basta importar a folha de estilos no seu arquivo `.scss`:
 
 ```scss
-@import "ijusplabcss"
+@import "@ijusplab/ijusplabcss"
 
 ...
 ```
-
-> Atenção: Para essa configuração funcionar corretamente, recomendamos o uso do `webpack` com o `postcss loader`.
 
 **Bônus**: a folha de estilos do iJuspLab já incorpora a folha [normalize.css](https://necolas.github.io/normalize.css/).
 
