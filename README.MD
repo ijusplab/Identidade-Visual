@@ -29,9 +29,9 @@ Uma vez feito isso, basta importar a folha de estilos no seu arquivo `.scss`:
 ...
 ```
 
-> Atenção: Para essa configuração funcionar corretamente, recomendamos o uso do webpack com o loader postcss.
+> Atenção: Para essa configuração funcionar corretamente, recomendamos o uso do `webpack` com o `postcss loader`.
 
-**Bônus**: a folha de estilos do iJuspLab já incopora a folha [normalize.css](https://necolas.github.io/normalize.css/).
+**Bônus**: a folha de estilos do iJuspLab já incorpora a folha [normalize.css](https://necolas.github.io/normalize.css/).
 
 #### 2. Como usar 
 
