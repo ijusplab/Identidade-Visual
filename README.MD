@@ -1,6 +1,6 @@
 <div style="display: flex; align-items: center; justify-content: space-around;">
-    <img src="/src/logos/ijusplab/logo_ijusplab_colorido_fundo_branco.jpg" height="100px" />
-    <img src="/src/logos/incubadora/logo_incubadora_fundo_transparente.png" height="50px" />
+    <img src="/src/logos/ijusplab/logo_ijusplab_colorido_fundo_branco.jpg" height="100px" alt="" />
+    <img src="/src/logos/incubadora/logo_incubadora_fundo_transparente.png" height="50px" alt="" />
 </div>
 
 <h1 style="font-family: Roboto, sans-serif; text-align: center; color: #0D47A1; text-decoration: underline; padding: 20px 0;">
@@ -29,8 +29,7 @@ Uma vez feito isso, basta importar a folha de estilos no seu arquivo `.scss`:
 ...
 ```
 
-Atenção: Para essa configuração funcionar corretamente, recomendamos o uso do webpack com o loader postcss.
-{: .alert .alert-warning} 
+> Atenção: Para essa configuração funcionar corretamente, recomendamos o uso do webpack com o loader postcss.
 
 **Bônus**: a folha de estilos do iJuspLab já incopora a folha [normalize.css](https://necolas.github.io/normalize.css/).
 
