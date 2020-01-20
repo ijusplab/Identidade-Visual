@@ -1,0 +1,55 @@
+.text {
+    &-overflow-ellipsis {
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+    &-no-wrap {
+        white-space: nowrap;
+        overflow: hidden;
+    }
+    &-color-default {
+        color: $text-color;
+    }
+    &-color-light {
+        color: $text-color-light;
+    }
+    &-align-center {
+        text-align: center;
+    }
+    &-align-left {
+        text-align: left;
+    }
+    &-align-right {
+        text-align: right;
+    }
+    &-align-justify {
+        text-align: justify;
+    }
+    &-align-middle {
+        vertical-align: middle;
+    }
+}
+
+.font {
+    &-family-default {
+        font-family: $font-family-sans-serif;
+    }
+    &-family-jf {
+        font-family: $font-family-jf;
+    }
+    &-family-alt {
+        font-family: $font-family-alt;
+    }
+
+    @for $i from 1 through 9 {
+        &-weight-#{$i} {
+            font-weight: ($i * 100);
+        }
+    }
+    @for $i from 5 through 20 {
+        &-size-#{$i} {
+            font-size: ($i / 20)rem;
+        }
+    }
+}

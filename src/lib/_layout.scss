@@ -1,0 +1,117 @@
+.flex {
+    display: flex;
+
+    &-column {
+        flex-direction: column;
+    }
+    &-row {
+        flex-direction: row;
+    }
+    &-grow {
+        flex-grow: 1;
+    }
+    &-shrink {
+        flex-grow: 0;
+    }
+
+    .align {
+        &-center {
+            align-items: center;
+        }
+        &-start {
+            align-items: flex-start;
+        }
+        &-end {
+            align-items: flex-end;
+        }
+        &-baseline {
+            align-items: baseline;
+        }
+        &-baseline-first {
+            align-items: first baseline;    
+        }
+        &-baseline-last {
+            align-items: last baseline;    
+        }
+        &-baseline-safe-center {
+            align-items: safe center;    
+        }
+        &-baseline-unsafe-center {
+            align-items: unsafe center;    
+        }
+    }
+
+    .justify {
+        &-center {
+            justify-content: center;
+        }
+        &-start {
+            justify-content: flex-start;
+        }
+        &-end {
+            justify-content: flex-end;
+        }
+        &-space-between {
+            justify-content: space-between;
+        }    
+    }    
+}
+
+.fill {
+    &-width {
+        width: 100%;
+    }
+    &-height {
+        height: 100%;
+    }        
+}
+
+
+@for $i from 0 through 50 {
+    .ma-#{$i} {
+        margin: $i * 2px!important;
+    }
+    .my-#{$i} {
+        margin-top: $i * 2px!important;
+        margin-bottom: $i * 2px!important;
+    }
+    .mx-#{$i} {
+        margin-left: $i * 2px!important;
+        margin-right: $i * 2px!important;
+    }
+    .mt-#{$i} {
+        margin-top: $i * 2px!important;
+    }
+    .mb-#{$i} {
+        margin-bottom: $i * 2px!important;
+    }
+    .ml-#{$i} {
+        margin-left: $i * 2px!important;
+    }
+    .mr-#{$i} {
+        margin-right: $i * 2px!important;
+    }
+    .pa-#{$i} {
+        padding: $i * 2px!important;
+    }
+    .py-#{$i} {
+        padding-top: $i * 2px!important;
+        padding-bottom: $i * 2px!important;
+    }
+    .px-#{$i} {
+        padding-left: $i * 2px!important;
+        padding-right: $i * 2px!important;
+    }
+    .pt-#{$i} {
+        padding-top: $i * 2px!important;
+    }
+    .pb-#{$i} {
+        padding-bottom: $i * 2px!important;
+    }
+    .pl-#{$i} {
+        padding-left: $i * 2px!important;
+    }
+    .pr-#{$i} {
+        padding-right: $i * 2px!important;
+    }
+}
