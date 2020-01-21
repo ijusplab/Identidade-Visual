@@ -1,6 +1,6 @@
 {
   "name": "@ijusplab/ijusplabcss",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Pequena biblioteca CSS do iJuspLab para rápida prototipação.",
   "main": "src/index.js",
   "browser": "dist/ijusplab.css",
