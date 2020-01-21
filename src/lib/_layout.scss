@@ -14,7 +14,7 @@
         flex-grow: 0;
     }
 
-    .align {
+    &.align {
         &-center {
             align-items: center;
         }
@@ -41,7 +41,7 @@
         }
     }
 
-    .justify {
+    &.justify {
         &-center {
             justify-content: center;
         }
@@ -54,7 +54,11 @@
         &-space-between {
             justify-content: space-between;
         }    
-    }    
+    }
+
+    &.row-wrap {
+        flex-wrap: wrap;
+    }
 }
 
 .fill {
